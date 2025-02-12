@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, nav, main, aside, footer { padding: 20px; }
+        header { background: #333; color: white; text-align: center; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin-right: 15px; }
+        nav ul li a { color: white; text-decoration: none; }
+        .container { display: flex; flex-wrap: wrap; }
+        main { flex: 2; padding: 20px; }
+        aside { flex: 1; background: #f4f4f4; padding: 20px; }
+        article { margin-bottom: 20px; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <main>
+            <article>
+                <h2>First Blog Post</h2>
+                <p><em>Posted on February 11, 2025</em></p>
+                <figure>
+                    <img src="image1.jpg" alt="Blog Image 1" width="100%">
+                    <figcaption>Image related to the first blog post</figcaption>
+                </figure>
+                <p>This is the content of the first blog post...</p>
+            </article>
+            
+            <article>
+                <h2>Second Blog Post</h2>
+                <p><em>Posted on February 10, 2025</em></p>
+                <figure>
+                    <img src="image2.jpg" alt="Blog Image 2" width="100%">
+                    <figcaption>Image related to the second blog post</figcaption>
+                </figure>
+                <p>This is the content of the second blog post...</p>
+            </article>
+        </main>
+        
+        <aside>
+            <h3>About the Author</h3>
+            <p>Short bio or additional links.</p>
+            <h3>Related Posts</h3>
+            <ul>
+                <li><a href="#">Previous Post 1</a></li>
+                <li><a href="#">Previous Post 2</a></li>
+            </ul>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 My Blog | All Rights Reserved</p>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
